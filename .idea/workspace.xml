@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3338cbd-acfd-4824-ab15-952cad0c7415" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/routes/tungnguyen.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/tungnguyen.js" afterDir="false" />
-    </list>
+    <list default="true" id="f3338cbd-acfd-4824-ab15-952cad0c7415" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,6 +15,7 @@
     <session id="1682985167">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -176,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536942736473</updated>
-      <workItem from="1536942737763" duration="573000" />
+      <workItem from="1536942737763" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573000" />
+    <option name="totallyTimeSpent" value="778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="41" width="1400" height="778" extended-state="0" />

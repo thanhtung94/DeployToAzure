@@ -1,5 +1,5 @@
 const index = function(reg, res) {
-    res.render('index', title:'Express')
+    res.render('index', { title: 'Express' });
 };
 module.exports = {
     index

@@ -4,8 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var index = require('./app_server/routes/index');
-var users = require('./app_server/routes/users');
+const index = require('./app_server/routes/index');
+const users = require('./app_server/routes/users');
 var about = require('./app_server/routes/about');
 var tungnguyen = require('./app_server/routes/tungnguyen');
 
@@ -13,7 +13,7 @@ var tungnguyen = require('./app_server/routes/tungnguyen');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'app_server', 'views'));
 app.set('view engine', 'pug');
 
 app.use(logger('dev'));

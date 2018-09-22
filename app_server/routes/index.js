@@ -1,9 +1,14 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
+const main = require('../controllers/main');
+const ctrlFootball = require('../controllers/ctrlFootball');
+const ctrlGoldenBall = require('../controllers/ctrlGoldenBall');
+
+var ctrlMain = require('../controllers/main');
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Tung Nguyen' });
-});
+router.get('/', ctrlMain.index());
+router.get('/football', ctrlFootball.winnerlist);
+router.get('/goldenball', ctrlGoldenBall.winnerlist);
 
 module.exports = router;

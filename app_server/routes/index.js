@@ -7,7 +7,7 @@ const ctrlGoldenBall = require('../controllers/ctrlGoldenBall');
 
 
 /* GET home page. */
-router.get('/', ctrlMain.index());
+router.get('/', ctrlMain.index);
 router.get('/football', ctrlFootball.winnerlist);
 router.get('/goldenball', ctrlGoldenBall.winnerlist);
 
